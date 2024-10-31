@@ -1,0 +1,150 @@
+body{
+    background-image: url("background35.jpg");
+    height: 100vh;
+    background-image: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+
+#header{
+    font-size: 50px;
+    color:whitesmoke;
+    padding-block-end: 30px;
+    float: right;
+}
+
+
+#the-name{
+    display: inline-flex;
+    margin-block-start: 0px;
+    margin-block-end: 30px;
+}
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+  
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .MenuBtn{
+position: relative;
+left: -5.5px;
+right: -50px;
+bottom: -50px;
+top: 0px;
+
+}
+#nav{
+  width: fit-content;
+  display: inline-block;
+
+}
+#website_header{
+	font-size: 70px;
+	text-align: center;
+	border: solid 2px whitesmoke;
+	font-family: calibari;
+	font-style: italic;
+	background-position:center;
+  color: beige;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  right: -25%;
+  top: 100px;
+
+	
+	
+}
+#intro{
+	text-align:center;
+	padding: 30px;
+	color: beige;
+  font-size: 30px;
+  position: relative;
+  top: 100px;
+	
+}
+form
+{
+	
+	text-align:center;
+  position: relative;
+  top: 100px;
+  color:beige;
+}
+
+input[type=number]{
+	width:30%;
+  position: relative;
+  border-radius: 25px;
+  height: 25px;
+}
+
+
+input[type=button]{
+	width:70px;
+	height:30px;
+	background:grey;
+	color:#191010;
+  position: relative;
+  border-radius: 25px;
+}
+#contact{
+  background-image: url(background111jpg.jpg);
+  position: relative;
+  top: 205px;
+
+}
+#name3
+{
+      color: white;
+      font-size: 60px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+      position: relative;
+    top: 42px;
+}
+label{
+  font-size: 23px;
+}

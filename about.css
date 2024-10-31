@@ -1,0 +1,139 @@
+body
+{
+    background-color: white;
+    background-size: 100% ;
+}
+
+h1
+{
+     color: white;
+     font-size: 60px;
+     border-style: solid;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-align: center;
+     background-image: url("headerbackground.jpg");
+     background-size: 100%;
+     margin-top: 40px;
+
+}
+#name
+{
+      color:rgb(10, 12, 10);
+      font-size: 20px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      text-align: left
+}
+
+
+.name
+{
+     color:rgb(10, 12, 10);
+     font-size: 20px;
+     text-align:left ;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     direction: rtl;
+}
+.name2
+{
+     color:rgb(10, 12, 10);
+     font-size: 20px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align: left;
+}
+#name3
+{
+      
+      
+      color: white;
+      font-size: 60px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+      position: relative;
+      top: 42px;
+}
+
+#contact{
+    background-image: url(background111jpg.jpg);
+}
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+  
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  #nav{
+    width: fit-content;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .MenuBtn{
+position: relative;
+left: -5.5px;
+right: -50px;
+bottom: -50px;
+top: 0px;
+  }
+h2
+{
+     color: white;
+     font-size: 60px;
+     border-style: solid;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-align: center;
+     background-image: url("headerbackground.jpg");
+     background-size: 100%;
+     margin-top: 38px;
+}
+p{
+  font-size: 20px;
+}
+h3{
+  font-size: 2.17em;
+}
+#question{
+  border: solid 2px gray;
+  margin-bottom: 24px;
+  text-align: center;
+
+}
+#question1{
+  text-align: left;
+}
+#header{
+  font-size: 50px;
+  color:whitesmoke;
+  padding-block-end: 30px;
+  float: right;
+}
