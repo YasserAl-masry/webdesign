@@ -11,9 +11,11 @@
     background-position-x: center;
 }
 body{
-background-image: url(IMG-20210525-WA0211.jpg);
-background-size: 100%;
-background-repeat: repeat-y; 
+  background-image: url(IMG-20210525-WA0211.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment: fixed;
 }
 #table01{
     text-indent: 5em;
